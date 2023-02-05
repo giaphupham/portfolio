@@ -6,14 +6,146 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="CSS/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div id="home"></div>
-    <div id="about"></div>
-    <div id="portfolio"></div>
-    <div id="contact"></div>
+    <div class="horizonal_navBar">
+        <a href="#home">.Home</a>
+        <a href="#about">.About</a>
+        <a href="#portfolio">.Portfolio</a>
+        <a href="#contact">.Contact</a>
+        <a href=""><button class="resume_btn">Resume</button></a>
+        
+    </div>
+    <section id="home">
+        <div class="introduction">
+            <h4>Hello, I am</h4>
+            <h1>PHẠM TRẦN GIA PHÚ</h1>
+            <p>3rd-Information Technology Student at VNUHCM - University of Science</p>
+            <p>Wellcome to my portfolio website !</p>
+        </div>
+    </section>
+    <section id="about">
+        <h3>About me</h3>
+        <div class="container">
+            <div class="sub-container">
+                <div class="describe">
+                    <p>Hi! My name is Pham Tran Gia Phu, a student at HCMUS. </p>
+                    <p>I'm interested in Data Analyst, Data Engineering, Data Science, and also Front-end Web Development.</p>
+                    <p>I have learned about Numpy, Pandas, Matplotlib, Data Science Process, and fundamental of HTML&CSS, Js, Tailwind CSS.</p> 
+                    <p>I am looking for a new role as a Front-end developer, Data Analyst, Data Engineer intern in Ho Chi Minh city</p>  
+                </div>
+                <div class="skills">
+                    <ul class="lang">
+                        Languages
+                        <li>Vietnamese</li>
+                        <li>English</li>
+                    </ul>
+                    <ul class="tech">
+                        Technical
+                        <li>Python & python's libraries for Data Science</li>
+                        <li>HTML & CSS</li>
+                        <li>JavaScript</li>
+                        <li>SQL</li>
+                        <li>Tailwind CSS</li>
+                    </ul>
+                    <ul class="platform">
+                        Platforms
+                        <li>Jupyter notebook, VSCode</li>
+                        <li>Git & Github</li>
+                        <li>MS SQL server</li>
+                        <li>Figma</li>
+                    </ul>
+                </div> 
+            </div>
+            <div class="avatar">
+                <img src="img/383428_01244548880_12316_ok.jpg" alt="avatar">
+            </div>
+        </div>
+        
+    </section>
+    <section id="portfolio">
+        <h3>Portfolios</h3>
+        <p class="sub_header">Some Things I’ve Built</p>
+        <div class="card-holder">
+            <div class="card">
+                <div class="img">
+                    <img src="img/Screenshot 2023-02-05 090740.png" alt="weather_app" class="border-radius-5px">
+                </div>
+                <div class="info">
+                    <h4>Weather Web</h4>
+                    <p>A web app provide a current national and local weather for cities by search with city's name. 
+                        Also show wind, humidity, visibility.</p>
+                    <ul>
+                        <li>HTML & CSS</li>
+                        <li>JavaScript</li>
+                        <li>openweathermap API</li>
+                    </ul>
+                    <a href="https://giaphupham.github.io/weather-web/">
+                        <button>View project</button>
+                    </a>
+     
+                </div>
+            </div>
 
+            <div class="card">
+                <div class="info">
+                    <h4 class="on_left">The band</h4>
+                    <p>A landing page using HTML and CSS with W3schools template.</p>
+                    <ul class="on_left">
+                        <li>HTML & CSS</li>
+                        <li>Responsive</li>
+                    </ul>
+                    <a href="https://giaphupham.github.io/the-band-web/">
+                        <button class="margin-right-400px">View project</button>
+                    </a>
+                </div>
+                <div class="img" style="width: 400px;">
+                    <img src="img/Screenshot 2023-02-05 090932.png" alt="the_band" class="border-radius-5px">
+                </div>
+            </div>
 
+            <div class="card">
+                <div class="img" style="width: 400px;">
+                    <img src="img/Screenshot 2023-02-05 145359.png" alt="todo_tasks" class="border-radius-5px">
+                </div>
+                <div class="info">
+                    <h4>Todo list web</h4>
+                    <p>A web app to easily manage your tasks, works on browser.</p>
+                    <ul>
+                        <li>HTML & CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <a href="https://giaphupham.github.io/todo_tasks/">
+                        <button>View project</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h3>Get In Touch</h3>
+        <p>I'm open to work now. So if you want to contact with me, please click belows</p>
+        <ul class="link_list">
+            <li>
+                <a href="https://www.linkedin.com/in/ph%C3%BA-ph%E1%BA%A1m-b048aa218/">
+                    <i class='bx bxl-linkedin-square' ></i>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:giaphupham196@gmail.com">
+                    <i class='bx bxl-gmail'></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/giaphupham">
+                    <i class='bx bxl-github' ></i>
+                </a>
+            </li>
+        </ul>
+    </section>
+ 
+    
     <script src="JS/app.js" text="text/JavaScript"></script>
 </body>
 </html>
