@@ -9,6 +9,12 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+
+    <div id="preloader" class="">
+        <img src="img/Eclipse-1s-200px.gif" alt="">
+    </div>
+
+
     <div class="horizonal_navBar">
         <a href="#home">.Home</a>
         <a href="#about">.About</a>
@@ -18,7 +24,7 @@
         
     </div>
     <section id="home">
-        <div class="introduction">
+        <div class="introduction left-to-right show-on-scroll">
             <h4>Hello, I am</h4>
             <h1>PHẠM TRẦN GIA PHÚ</h1>
             <p>3rd-Information Technology Student at VNUHCM - University of Science</p>
@@ -26,9 +32,9 @@
         </div>
     </section>
     <section id="about">
-        <h3>About me</h3>
+        <h3 class="left-to-right show-on-scroll">About me</h3>
         <div class="container">
-            <div class="sub-container">
+            <div class="sub-container left-to-right show-on-scroll">
                 <div class="describe">
                     <p>Hi! My name is Pham Tran Gia Phu, a student at HCMUS. </p>
                     <p>I'm interested in Data Analyst, Data Engineering, Data Science, and also Front-end Web Development.</p>
@@ -58,17 +64,17 @@
                     </ul>
                 </div> 
             </div>
-            <div class="avatar">
+            <div class="avatar zoom show-on-scroll">
                 <img src="img/383428_01244548880_12316_ok.jpg" alt="avatar">
             </div>
         </div>
         
     </section>
     <section id="portfolio">
-        <h3>Portfolios</h3>
-        <p class="sub_header">Some Things I’ve Built</p>
+        <h3 class="left-to-right show-on-scroll">Portfolios</h3>
+        <p class="sub_header left-to-right show-on-scroll">Some Things I’ve Built</p>
         <div class="card-holder">
-            <div class="card">
+            <div class="card left-to-right show-on-scroll">
                 <div class="img">
                     <img src="img/Screenshot 2023-02-05 090740.png" alt="weather_app" class="border-radius-5px">
                 </div>
@@ -81,14 +87,14 @@
                         <li>JavaScript</li>
                         <li>openweathermap API</li>
                     </ul>
-                    <a href="https://giaphupham.github.io/weather-web/">
+                    <a href="https://giaphupham.github.io/weather-web/" target="_blank">
                         <button>View project</button>
                     </a>
      
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card right-to-left show-on-scroll">
                 <div class="info">
                     <h4 class="on_left">The band</h4>
                     <p>A landing page using HTML and CSS with W3schools template.</p>
@@ -96,7 +102,7 @@
                         <li>HTML & CSS</li>
                         <li>Responsive</li>
                     </ul>
-                    <a href="https://giaphupham.github.io/the-band-web/">
+                    <a href="https://giaphupham.github.io/the-band-web/" target="_blank">
                         <button class="margin-right-400px">View project</button>
                     </a>
                 </div>
@@ -105,7 +111,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card left-to-right show-on-scroll">
                 <div class="img" style="width: 400px;">
                     <img src="img/Screenshot 2023-02-05 145359.png" alt="todo_tasks" class="border-radius-5px">
                 </div>
@@ -116,7 +122,7 @@
                         <li>HTML & CSS</li>
                         <li>JavaScript</li>
                     </ul>
-                    <a href="https://giaphupham.github.io/todo_tasks/">
+                    <a href="https://giaphupham.github.io/todo_tasks/" target="_blank">
                         <button>View project</button>
                     </a>
                 </div>
@@ -124,33 +130,33 @@
         </div>
     </section>
     <section id="cef">
-        <h3>Certifications</h3>
-        <p>Some certifications i have</p>
+        <h3 class="zoom show-on-scroll">Certifications</h3>
+        <p class="zoom show-on-scroll">Some certifications i have</p>
         <div class="img_gallery">
-            <img src="img/Coursera 35T9J7LMY586.png" alt="">
-            <img src="img/Coursera 5UUNWGMJR27C.png" alt="">
-            <img src="img/problem_solving_basic certificate.png" alt="">
-            <img src="img/python_basic certificate.png" alt="">
-            <img src="img/sql_advanced certificate.png" alt="">
-            <img src="img/Coursera MZPFZ65ANM3F.png" alt="">
+            <img src="img/Coursera 35T9J7LMY586.png" alt="" class="zoom show-on-scroll" loading="lazy">
+            <img src="img/Coursera 5UUNWGMJR27C.png" alt="" class="zoom show-on-scroll" loading="lazy">
+            <img src="img/problem_solving_basic certificate.png" alt="" class="zoom show-on-scroll" loading="lazy">
+            <img src="img/python_basic certificate.png" alt="" class="zoom show-on-scroll" loading="lazy">
+            <img src="img/sql_advanced certificate.png" alt="" class="zoom show-on-scroll" loading="lazy">
+            <img src="img/Coursera MZPFZ65ANM3F.png" alt="" class="zoom show-on-scroll" loading="lazy">
         </div>
     </section>
-    <section id="contact">
+    <section id="contact" class="right-to-left show-on-scroll">
         <h3>Get In Touch</h3>
         <p>I'm open to work now. So if you want to contact with me, please click belows</p>
         <ul class="link_list">
             <li>
-                <a href="https://www.linkedin.com/in/ph%C3%BA-ph%E1%BA%A1m-b048aa218/">
+                <a href="https://www.linkedin.com/in/ph%C3%BA-ph%E1%BA%A1m-b048aa218/" target="_blank">
                     <i class='bx bxl-linkedin-square' ></i>
                 </a>
             </li>
             <li>
-                <a href="mailto:giaphupham196@gmail.com">
+                <a href="mailto:giaphupham196@gmail.com" target="_blank">
                     <i class='bx bxl-gmail'></i>
                 </a>
             </li>
             <li>
-                <a href="https://github.com/giaphupham">
+                <a href="https://github.com/giaphupham" target="_blank">
                     <i class='bx bxl-github' ></i>
                 </a>
             </li>
